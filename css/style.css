@@ -702,7 +702,6 @@ a:hover {
 .logos-skill {
   width: auto;
   height: auto;
-  display:;
   justify-content: center;
   padding-left: 40px;
   position: relative;
@@ -717,12 +716,10 @@ a:hover {
 //--//-->   SERVICES
 ======================================*/
 .row {
-  border: solid 2px #fff;
   justify-content: center;
 }
 
 .col-md-4 {
-  border: solid 2px #fff;
   justify-content: center;
   margin: 40px;
   padding: 0px;
@@ -734,6 +731,10 @@ a:hover {
   padding: 30px;
   font-size: 1.rem;
   margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .service-box:hover .ico-circle {
@@ -798,6 +799,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  text-align: center;
 }
 
 .work-box:hover img {
@@ -827,24 +829,17 @@ a:hover {
   color: #52fc03;
 }
 
-.work-content .w-like {
-  font-size: 2.5rem;
+.btn {
+  font-size: 1rem;
   color: #52fc03;
-  float: right;
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
-.work-content .w-like a {
-  color: #52fc03;
-}
-
-.work-content .w-like .num-like {
+.work-content .num-like {
   font-size: .7rem;
 }
-
-.w-title {
-  font-size: 1.2rem;
-}
-
+ 
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
