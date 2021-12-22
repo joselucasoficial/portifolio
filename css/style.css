@@ -719,7 +719,6 @@ a:hover {
   justify-content: center;
 }
 
-
 .col-md-4 {
   justify-content: center;
   margin: 40px;
@@ -732,10 +731,9 @@ a:hover {
   padding: 30px;
   font-size: 1.rem;
   margin: 10px;
+  position: relative;
+  height: 380px;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .service-box:hover .ico-circle {
@@ -801,6 +799,7 @@ a:hover {
   backface-visibility: hidden;
   background-color: #fff;
   text-align: center;
+  height: 430px;
 }
 
 .work-box:hover img {
@@ -835,6 +834,7 @@ a:hover {
   color: #52fc03;
   border-radius: 4px;
   margin-top: 20px;
+  position: relative;
 }
 
 .work-content .num-like {
