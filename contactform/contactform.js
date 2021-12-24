@@ -119,7 +119,7 @@ jQuery(document).ready(function($) {
     $('#btnMandar').hide();
     $('form input').prop('disabled', true)
     $('form textarea').prop('disabled', true)
-    fetch("https://git.heroku.com/portifolio-on.git", {
+    fetch("https://envioemail-dimas.herokuapp.com", {
               method: "POST",
               headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
