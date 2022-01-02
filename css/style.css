@@ -94,6 +94,9 @@ a:hover {
 }
 
 .overlay-mf {
+  display: flex;
+  align-items: center;
+  align-content: center;
   position: absolute;
   top: 0;
   left: 0px;
@@ -144,7 +147,7 @@ a:hover {
 /*--/ Title A /--*/
 
 .title-box {
-  margin-bottom: 4rem;
+  margin: 0px;
 }
 
 .title-a {
@@ -804,6 +807,7 @@ a:hover {
   background-color: #fff;
   text-align: center;
   height: 430px;
+  border-radius: 5px;
 }
 
 .work-box:hover img {
@@ -814,6 +818,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  border-radius: 5px 5px;
 }
 
 .work-img img {
