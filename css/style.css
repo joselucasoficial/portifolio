@@ -87,6 +87,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  height: 80px;
 }
 
 .overlay-mf {
@@ -146,10 +147,6 @@ a:hover {
 
 /*--/ Title A /--*/
 
-.title-box {
-  margin: 0px;
-}
-
 .title-a {
   font-size: 3rem;
   font-weight: bold;
@@ -169,6 +166,10 @@ a:hover {
 }
 
 /*--/ Title Left /--*/
+
+.title-box{
+  
+}
 
 .title-box-2 {
   margin-bottom: 3rem;
