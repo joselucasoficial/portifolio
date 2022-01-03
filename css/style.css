@@ -86,6 +86,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .bg-image {
@@ -1133,17 +1134,31 @@ a:hover {
 .widget-tags ul li a {
   color: #fff;
 }
+.cont{
+  display: flex;
+  justify-content: center;
+}
+.cont-a {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.sub-a {
+  color: #fff;
+}
 
 /*======================================
 //--//-->   CONTACT
 ======================================*/
 
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding:0;
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 /*======================================
