@@ -82,12 +82,18 @@ a:hover {
   overflow: hidden;
 }
 
+.col-sm-12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  height: 80px;
+  
 }
 
 .overlay-mf {
@@ -168,6 +174,9 @@ a:hover {
 /*--/ Title Left /--*/
 
 .title-box{
+  display: block;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -698,6 +707,28 @@ a:hover {
   margin-top: 50px;
 }
 
+.title-cert{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0px 80px 0px;
+}
+
+.title-cert2 {
+  color: #52fc03;
+  font-size: 2rem;
+  position: relative;
+}
+
+.title-cert2:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #52fc03;
+  width: 100px;
+  bottom: -12px;
+}
+
 .skill-text {
   color: #52fc03;
   margin-bottom: 20px;
@@ -718,6 +749,25 @@ a:hover {
 
 .about-info {
   margin-top: 20px;
+}
+
+.card .text-white .bg-dark .mb-3{
+  max-width: 500px;
+}
+
+.accordion-button{
+  font-size: 1.1rem;
+  background-color: #4e4e4e;
+  color: #52fc03;
+}
+
+.accordion-button::after{
+  background-color: #52fc03;
+  border-radius: 4px;
+}
+
+.accordion-item{
+  background-color: #4e4e4e;
 }
 
 /*======================================
